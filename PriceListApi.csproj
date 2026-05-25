@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>test__api</RootNamespace>
+    <RootNamespace>PriceListApi</RootNamespace>
     <UserSecretsId>29b25889-1a6c-46b0-8216-97e1398994c8</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>

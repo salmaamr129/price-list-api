@@ -1,13 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using test__api.data.models;
+using PriceListApi.data.models;
 
-namespace test__api.data
+namespace PriceListApi.data
 {
-    public class Adddbcontext(DbContextOptions<Adddbcontext> options) : DbContext(options)
+    public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
-       public DbSet<Seller> Sallers { get; set; }
+       public DbSet<Seller> Sellers { get; set; }
         public DbSet<Product> Products { get; set; }
 
     }

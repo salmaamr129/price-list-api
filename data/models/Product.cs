@@ -1,4 +1,4 @@
-﻿namespace test__api.data.models
+﻿namespace PriceListApi.data.models
 {
     public class Product
     {

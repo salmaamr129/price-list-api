@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using test__api.data.models;
+using PriceListApi.data.models;
 
-namespace test__api.Controllers
+namespace PriceListApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

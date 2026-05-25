@@ -1,8 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
-using test__api.data;
+using PriceListApi.data;
 
-namespace test__api
+namespace PriceListApi
 {
     public class Program
     {
@@ -11,7 +11,7 @@ namespace test__api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddDbContext<Adddbcontext>(op =>
+            builder.Services.AddDbContext<AppDbContext>(op =>
             op.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             
             
