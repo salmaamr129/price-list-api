@@ -73,6 +73,9 @@ City        nvarchar         Price        decimal
 
 ## Running locally
 
+> For a guided, copy-pasteable walkthrough — prerequisites, DB setup,
+> verification, and troubleshooting — see **[PLAYBOOK.md](PLAYBOOK.md)**.
+
 ### Prerequisites
 - .NET 8 SDK — https://dotnet.microsoft.com/download
 - SQL Server LocalDB (ships with Visual Studio) **or** SQL Server 2019+
